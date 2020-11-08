@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登陆</title>
+	<link rel="icon" href="media/icon.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main_block" style="height: 100%;"></div>
+	<img class="top_image" src="media/arknights.png">
+	<div class="top_right">
+		<a href="https://ak.hypergryph.com/index" target="_blank">官网</a>
+		<a href="login.html">登陆</a>
+	</div>
+	<div class="nav">
+		<li><a href="index.html">主页</a></li>
+		<li><a href="story.html">世界观</a></li>
+		<li><a href="character.html">主要人物</a></li>
+		<li><a href="picture.html">图片鉴赏</a></li>
+	</div>
+
+	<div class="division"></div>
+	<form onsubmit="err();">
+		<div class="login_block">
+			<h3>登陆</h3>
+			<div class="login_text">
+				用户名 <span>*</span><br>
+				<input type="text"><br>
+				密码 <span>*</span><br>
+				<input type="password"><br>
+				<span>* 为必填项</span>
+				<span class="to_reg">
+					<a href="register.html">免费注册</a>
+				</span>
+			</div>
+			<div class="login_button">
+				<div class="division1"></div>
+				<input type="submit" value="登陆">
+			</div>
+		</div>
+	</form>
+	<div class="bottom" style="margin-top: 100px;">
+		<div class="division"></div>
+		<p style="text-align: center;">
+			Copyright © 2020 Calvin Jin<br>
+			20373286@buaa.edu.cn
+		</p>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	var w=window.outerWidth;
+	if (w<1250){
+		alert("当前页面较小，请全屏或缩放后刷新以获得最佳显示效果。");
+	}
+	function err(){
+		alert("登陆功能暂未开放，敬请谅解！");
+	}
+</script>

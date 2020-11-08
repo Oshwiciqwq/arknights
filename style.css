@@ -1,0 +1,223 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-image: url(media/background.png);
+	background-size: 100%;
+	background-attachment: fixed;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.main_block{
+	position: absolute;
+	background-color: black;
+	opacity: 60%;
+	width: 80%;
+	margin-left: 10%;
+}
+.top_image{
+	position: relative;
+	width: 14%;
+	margin-left: 43%;
+}
+.top_right{
+	position: relative;
+	margin-right: 10%;
+	width: 10%;
+	float: right;
+	text-align: center;
+}
+.top_right a{
+	margin-right: 10px;
+}
+.top_right a:hover{
+	background-color: #AAA;
+}
+.nav{
+	position: relative;
+	width: 60%;
+	margin-left: 20%;
+	height: 50px;
+}
+.nav li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	width: 25%;
+	list-style-type: none;
+	text-align: center;
+	font-weight: bold;
+	background-color: grey;
+}
+.nav li:hover{
+	background-color: #AAA;
+}
+.imgBox{
+	position: relative;
+	width: 50%;
+	margin-left: 25%;
+}
+.imgBox img{
+	width: 100%;
+	padding-top: 10px;
+}
+.img1{display: block;}
+.img2{display: none;}
+.img3{display: none;}
+.img4{display: none;}
+.img5{display: none;}
+.img6{display: none;}
+.img7{display: none;}
+.division{
+	position: relative;
+	width: 74%;
+	margin-left: 13%;
+	height: 1px;
+	background-color: white;
+}
+.division1{
+	margin-top: 5px;
+	position: relative;
+	width: 100%;
+	height: 1px;
+	background-color: white;
+}
+.introduction{
+	text-indent: 2em;
+	position: relative;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 20px;
+}
+.text1{
+	float: left;
+	width: 75%;
+}
+._img1{
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 20%;
+}
+._img1 img{
+	width: 100%;
+}
+.text2{
+	float: left;
+	width: 100%;
+}
+.blackk{
+    background-color: #FFF;
+    color: #FFF;
+    text-shadow: none;
+    transition: color 0.3s;
+}
+.blackk:hover{
+    color: #000;
+}
+.operator{
+	position: relative;
+	width: 100%;
+	float: left;
+	text-indent: 0;
+}
+.op_block{
+	display: inline-block;
+	width: 22%;
+	background-color: #636363;
+	border: 10px solid #333; 
+}
+.op_img{
+	margin-left: 0px;
+	width: 40%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.op_img img{
+	width: 90%;
+	display: inline-block;
+	margin-left: 5%;
+}
+.op_text{
+	float: left;
+	width: 60%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.op_uptext{
+	font-size: 1.2em;
+	font-weight: 600;
+	text-shadow: 1px 1px 0 #000;
+	text-align: center;
+}
+.op_downtext{
+	font-size: 100%;
+	text-align: center;
+}
+.enemy_roll{
+	float: left;
+	text-indent: 0em;
+	border: 2px solid #000;
+	height: 300px;
+	background-color: white;
+}
+.pv{
+	width: 70%;
+	margin-left: 15%;
+	float: left;
+}
+.bottom{
+	clear: both;
+	position: relative;
+	padding-top: 100px;
+}
+.intro_table{
+	position: relative;
+	width: 70%;
+	margin-left: 15%;
+}
+.intro_table p{
+	text-indent: 2em;
+}
+.showpic{
+	width: 70%;
+	margin-left: 15%;
+	position: relative;
+}
+.login_block{
+	width: 20%;
+	margin-left: 40%;
+	position: relative;
+}
+.login_text span{
+	color: red;
+}
+.login_text input{
+	width: 98%;
+	height: 25px;
+	margin-bottom: 10px;
+}
+.to_reg{
+	float: right;
+}
+.login_button{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.login_button input{
+	margin-top: 5px;
+	float: right;
+	background-color: grey;
+	border: none;
+	height: 40px;
+	line-height: 40px;
+	width: 150px;
+	color: white;
+}
